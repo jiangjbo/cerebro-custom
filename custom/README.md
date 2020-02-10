@@ -18,3 +18,5 @@ META-INF/MANIFEST.MF
 
 ## conf\reference.conf
 
+# 安装后，会将sql文件中的内容读取到play_evolutions这张表中
+修改evolutions/default/1.sql文件前, 需要清空
